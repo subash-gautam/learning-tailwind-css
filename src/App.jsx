@@ -4,12 +4,8 @@ import Card from "./components/Card";
 function App() {
     return (
         <>
-            <div className="divide-y divide-dashed hover:divide-solid divide-indigo-600/70">
-                divide(-DIR)(-AMT)
-                <div>Division 1</div>
-                <div>Division 2</div>
-                <div>Division 3</div>
-                <div>Division 4</div>
+            <div className="flex justify-center items-center min-h-screen">
+                <div className="ring-offset-4 ring-8 ring-pink-500 w-64 h-64 bg-green-500 border-4 border-blue-700 rounded-3xl"></div>
             </div>
         </>
     );
