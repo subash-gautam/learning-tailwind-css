@@ -4,9 +4,13 @@ import Card from "./components/Card";
 function App() {
     return (
         <>
-            <div className="grid place-items-center m-5 p-5">
-                <Card />
-            </div>
+            <p class="font-sans hover:font-serif focus:text-mono text-4xl">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reprehenderit, sequi.
+            </p>
+            <p class="font-sans ...">sans: The quick brown fox ...</p>
+            <p class="font-serif ...">serif: The quick brown fox ...</p>
+            <p class="font-mono ...">mono: The quick brown fox ...</p>
         </>
     );
 }
