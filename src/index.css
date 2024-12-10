@@ -3,10 +3,7 @@
 @tailwind utilities;
 /* Customizing CSS it will be overridden by class tailwinds */
 @layer base {
-    h1 {
-        @apply text-4xl text-orange-500 mt-1;
-    }
-    h2 {
-        @apply text-xl text-indigo-500 mt-3;
+    p {
+        @apply text-3xl text-green-800 bg-blue-400 p-5;
     }
 }

@@ -3,12 +3,13 @@ import React from "react";
 function App() {
     return (
         <>
-            {/* by customization  */}
-            <h1 className="">This is first test over tailwind css.</h1>
-            {/* After overridden  */}
-            <h1 className="text-2xl text-pink-500 mt-5">
-                This is first test over tailwind css.
-            </h1>
+            <p className="text-cyan-400 bg-indigo-500 text-5xl p-5">
+                Tailwind color classs:
+            </p>
+            <p className="text-3xl">
+                Background (bg-COL-STR) eg: bg-indigo-500
+            </p>
+            <p className="text-3xl">Text (text-COL-STR) eg: text-cyan-300</p>
         </>
     );
 }

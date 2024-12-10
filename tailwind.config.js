@@ -5,12 +5,4 @@ export default {
         extend: {},
     },
     plugins: [],
-    corePlugins: {
-        preflight: false,
-        // It removes some default properties of tailwind, such as Margins removed
-        // Unstyled headings
-        // List unstyled
-        // Block images
-        // Borders reset
-    },
 };
