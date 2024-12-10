@@ -4,12 +4,13 @@ import Card from "./components/Card";
 function App() {
     return (
         <>
-            <a href="#">
-                {/* Setting 1 to be hidden */}
-                <span class="sr-only">Settings 1</span>
-                {/* Setting 2 not to be hidden */}
-                <span class="not-sr-only">Settings 2</span>
-            </a>
+            <div className="divide-y divide-dashed hover:divide-solid divide-indigo-600/70">
+                divide(-DIR)(-AMT)
+                <div>Division 1</div>
+                <div>Division 2</div>
+                <div>Division 3</div>
+                <div>Division 4</div>
+            </div>
         </>
     );
 }
