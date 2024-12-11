@@ -44,7 +44,7 @@ function App() {
                             placeholder="email@company.com"
                             type="email"
                             id="email"
-                            class="invalid:text-red-600 w-full rounded-md flex-1 appearance-none border border-gray-300 py-2 px-2 bg-white text-gray-700 placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-sky-600 focus:border-transparent"
+                            class="required:bg-yellow-100 invalid:text-red-600 w-full rounded-md flex-1 appearance-none border border-gray-300 py-2 px-2 bg-white text-gray-700 placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-sky-600 focus:border-transparent"
                         />
                     </div>
 
@@ -71,7 +71,7 @@ function App() {
                         </label>
                         <input
                             type="file"
-                            class="block text-sm text-gray-400 file:mr-2 file:py-2 file:px-2 file:rounded-md file:border file:border-gray-200 file:bg-white file:text-gray-500 hover:file:bg-gray-100"
+                            class="block text-sm text-gray-400 file:mr-2 file:py-2 file:px-2 file:rounded-md file:border file:border-gray-200 file:bg-white file:text-gray-500 hover:file:bg-green-100"
                         />
                     </div>
 
