@@ -6,23 +6,23 @@ function App() {
     return (
         <>
             <div>
-                <p className="first:bg-blue-500 last:bg-green-400">
+                <p className="first-of-type:bg-blue-500 last-of-type:bg-green-400">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Expedita, quibusdam.
                 </p>
-                <p className="first:bg-blue-500 last:bg-green-400">
+                <a className="first-of-type:bg-blue-500 last-of-type:bg-green-400">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Expedita, quibusdam.
+                </a>
+                <p className="first-of-type:bg-blue-500 last-of-type:bg-green-400">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Expedita, quibusdam.
                 </p>
-                <p className="first:bg-blue-500 last:bg-green-400">
+                <a className="first-of-type:bg-blue-500 last-of-type:bg-green-400">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Expedita, quibusdam.
-                </p>
-                <p className="first:bg-blue-500 last:bg-green-400">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Expedita, quibusdam.
-                </p>
-                <p className="first:bg-blue-500 last:bg-green-400">
+                </a>
+                <p className="first-of-type:bg-blue-500 last-of-type:bg-green-400">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Expedita, quibusdam.
                 </p>
