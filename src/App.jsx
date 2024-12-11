@@ -5,10 +5,10 @@ import Button from "./components/Button";
 function App() {
     return (
         <>
-            <div>
-                <Button label="Something" className="empty:hidden" />
-                <Button className="empty:hidden" />
-            </div>
+            <p className="first-letter:text-2xl first-line:bg-violet-400">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Molestiae eaque molestias doloremque qui ducimus odit.
+            </p>
         </>
     );
 }
