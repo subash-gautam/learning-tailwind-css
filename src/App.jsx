@@ -6,24 +6,8 @@ function App() {
     return (
         <>
             <div>
-                <p className="odd:bg-green-400 odd:text-blue-500 even:bg-blue-500 even:text-green-500">
-                    Lorem ipsum dolor sit amet.
-                </p>
-                <p className="odd:bg-green-400 odd:text-blue-500 even:bg-blue-500 even:text-green-500">
-                    Lorem ipsum dolor sit amet.
-                </p>
-                <p className="odd:bg-green-400 odd:text-blue-500 even:bg-blue-500 even:text-green-500">
-                    Lorem ipsum dolor sit amet.
-                </p>
-                <p className="odd:bg-green-400 odd:text-blue-500 even:bg-blue-500 even:text-green-500">
-                    Lorem ipsum dolor sit amet.
-                </p>
-                <p className="odd:bg-green-400 odd:text-blue-500 even:bg-blue-500 even:text-green-500">
-                    Lorem ipsum dolor sit amet.
-                </p>
-                <p className="odd:bg-green-400 odd:text-blue-500 even:bg-blue-500 even:text-green-500">
-                    Lorem ipsum dolor sit amet.
-                </p>
+                <Button label="Something" className="empty:hidden" />
+                <Button className="empty:hidden" />
             </div>
         </>
     );

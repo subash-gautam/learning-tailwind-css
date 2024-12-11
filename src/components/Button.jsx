@@ -1,7 +1,7 @@
 // BeautifulButton.js
 import React from "react";
 
-const Button = ({ label = "Default label", className }) => {
+const Button = ({ label, className }) => {
     console.log(className);
     return (
         <button
